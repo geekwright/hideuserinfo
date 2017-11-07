@@ -1,0 +1,25 @@
+<p id="help-template">
+    <h1 class="head">Help:: HideUserInfo</h1>
+
+    <!-- -----Help Content ---------- -->
+
+    <p><em>Hide XOOPS core's userinfo.php from anonymous visitors</em></p>
+
+    <h4>Description</h4>
+    <p><em>hideuserinfo</em> is a simple XOOPS hack/module which implements a simple SPAM
+    registration discouraging feature, preventing the <code>htdocs/userinfo.php</code>
+    script from displaying any information to anonymous visitors by intercepting the
+    <em>core.userinfo.start</em> event.</p>
+
+    <p>One motivation for SPAM registrations is to put information into the user profile
+    which will be indexed by search engines. Even if the spammer never posts on your
+    site, the direct link to the user page may be posted elsewhere by the spammer to
+    try and use your site's reputation to increase exposure of whatever target they
+    are promoting. Hideuserinfo stops the search engines from seeing the profiles.</p>
+
+    <p>The "profile" module has this capability, so this module is only useful if your
+    site uses the basic user management built in to XoopsCore.</p>
+
+    <p>If you need legitimate anonymous users to be able to see the user profiles, this won't
+    work for your needs -- sorry.</p>
+</div>
